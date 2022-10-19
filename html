@@ -1,0 +1,12 @@
+<div style="width: max-content;margin-left: 20px;">
+    <input type="file" multiple class="slds-p-around_small" onchange={fileSelected} />
+</div><br>
+<div>
+    <lightning-button
+                        variant="brand"
+                        label="Import"
+                        onclick={readCSVFile}
+                        class="slds-p-around_small"
+                        disabled={disableImport}>
+    </lightning-button>
+</div>
